@@ -1,7 +1,11 @@
+import { Header } from '../../components/Header'
+import { Profile } from '../../components/Profile'
+
 export const Home: React.FC = () => {
   return (
     <>
-      <h1>hello world</h1>
+      <Header />
+      <Profile />
     </>
   )
 }
