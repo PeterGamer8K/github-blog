@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   width: 100%;
   margin-top: 4.5rem;
+  padding: 0 1rem;
 `
 
 export const Content = styled.div`

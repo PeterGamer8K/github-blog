@@ -1,4 +1,5 @@
 import React from 'react'
+import { PostList } from '../PostList'
 import { SearchInput } from '../SearchInput'
 
 import { Container, Content, Header } from './style'
@@ -12,7 +13,7 @@ export const PostsSection: React.FC = () => {
           <span>6 publicações</span>
         </Header>
         <SearchInput placeholder="Buscar conteúdo" />
-        {/* <PostList /> */}
+        <PostList />
       </Content>
     </Container>
   )
