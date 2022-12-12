@@ -6,7 +6,7 @@ export const Container = styled.section`
   padding: 0 1rem;
 `
 
-export const Content = styled.div`
+export const Content = styled.form`
   max-width: 54rem;
   margin: 0 auto;
 `
